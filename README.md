@@ -1,6 +1,10 @@
-# PDF Encryption App
+# DropLock PDF
 
 This is a Python-based graphical user interface (GUI) application using `tkinter` allowing users to upload PDF files by dragging and dropping them into the application window. The app displays the file name of the dropped PDF file and allows users to encrypt the selected PDF using a password. The purpose of this application is to mass encrypt multiple PDF files at once without having to manually enter a password for each PDF.
+
+## Encryption
+
+The application uses **AES-256 bit encryption**. All encryption happens locally on your machine. Your files are never uploaded to a server, ensuring total privacy.
 
 ## Features
 
@@ -44,4 +48,4 @@ Once the application is running:
 
 Here is an example of how the app looks when running:
 
-![Example Image](assets/example_img.png)
+![Example Image](example_assets/mac_img.png)
