@@ -10,7 +10,6 @@ APP_DIMENSIONS = "570x670"
 MAIN_BG_COLOR = "#323232"
 BOX_BG_COLOR = "#1d1d1d"
 TITLE = "DropLock PDF"
-LOGO = "lock.png"
 
 class App(TkinterDnD.Tk):   # Inherit from TkinterDnD.Tk for drag-and-drop support
     
@@ -34,6 +33,17 @@ class App(TkinterDnD.Tk):   # Inherit from TkinterDnD.Tk for drag-and-drop suppo
         self.dnd_bind('<<Drop>>', self.on_file_drop_callback)
 
 
+    def resource_path(self, relative_path):
+        """ Get absolute path to resource - needed for PyInstaller """
+        try:
+            # PyInstaller has a temp folder and stores path in _MEIPASS
+            base_path = sys._MEIPASS
+        except Exception:
+            base_path = os.path.abspath(".")
+
+        return os.path.join(base_path, relative_path)
+
+
     def init_ui(self):
         '''Initializes UI elements'''
         
@@ -44,7 +54,7 @@ class App(TkinterDnD.Tk):   # Inherit from TkinterDnD.Tk for drag-and-drop suppo
         self.configure(background=MAIN_BG_COLOR)
         self.geometry(APP_DIMENSIONS)
         try:
-            self.app_icon = tk.PhotoImage(file=LOGO)
+            self.app_icon = tk.PhotoImage(file=self.resource_path("lock.png"))
             self.iconphoto(False, self.app_icon)
         except Exception as e:
             print(f"Icon not found: {e}")
