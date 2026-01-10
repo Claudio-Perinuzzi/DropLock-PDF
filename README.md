@@ -1,27 +1,28 @@
-
 <div align="center">
-<h1>DropLock PDF</h1>
+  <h1>DropLock PDF</h1>
   <img src="lock.png" alt="Logo" width="150"/>
-  <h3>Your all in one PDF encryption utility.<h3>
+  <h3>Your all-in-one PDF encryption utility.</h3>
   <br>
-  <h1>About<h1>
-  <p>
-    <font size="2">
-        DropLock PDF is a Python-based graphical user interface (GUI) application that efficiently encrypts multiple PDFs simultaneously, allowing users to save time by securely encrypting files in bulk. Users can bulk upload PDF files by dragging and dropping them into the application window. The app displays the file name of the dropped PDF files and allows users to encrypt the selected PDFs using a password. The purpose of this application is to mass encrypt multiple PDF files at once without having to manually enter a password for each PDF or upload files one by one.
-    </font>
-  </p>
+  <h1>About</h1>
 </div>
 
+
+
+<p align="center">
+  DropLock PDF is a Python-based graphical user interface (GUI) application that efficiently encrypts multiple PDFs simultaneously, allowing users to save time by securely encrypting files in bulk. Users can bulk upload PDF files by dragging and dropping them into the application window. The app displays the file name of the dropped PDF files and allows users to encrypt the selected PDFs using a password. The purpose of this application is to mass encrypt multiple PDF files at once without having to manually enter a password for each PDF or upload files one by one.
+</p>
+
 <br>
-<br>
+
 <div align="center">
-<h1>Both Windows and MacOS Compatible:</h1>
-  <img src="example_assets/mac_img.png" alt="Logo" width="500"/>
-  <img src="example_assets/windows_img.png" alt="Logo" width="490"/>
-  <br>
-  <br>
-  <br>
+  <h1>Both Windows and MacOS Compatible</h1>
+
+
+| MacOS Version | Windows Version |
+| :---: | :---: |
+| <img src="example_assets/mac_img.png" width="400"> | <img src="example_assets/windows_img.png" width="400"> |
 </div>
+<br>
 
 ## 🔒 Encryption
 
