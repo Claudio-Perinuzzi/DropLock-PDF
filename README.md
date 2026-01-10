@@ -5,7 +5,11 @@
   <h3>Your all in one PDF encryption utility.<h3>
   <br>
   <h1>About<h1>
-  <font size="3">DropLock PDF is a Python-based graphical user interface (GUI) application that efficiently encrypts multiple PDFs simultaneously, allowing users to save time by securely encrypting files in bulk. Users can bulk upload PDF files by dragging and dropping them into the application window. The app displays the file name of the dropped PDF files and allows users to encrypt the selected PDFs using a password. The purpose of this application is to mass encrypt multiple PDF files at once without having to manually enter a password for each PDF or upload files one by one.</font>
+  <p>
+    <font size="2">
+        DropLock PDF is a Python-based graphical user interface (GUI) application that efficiently encrypts multiple PDFs simultaneously, allowing users to save time by securely encrypting files in bulk. Users can bulk upload PDF files by dragging and dropping them into the application window. The app displays the file name of the dropped PDF files and allows users to encrypt the selected PDFs using a password. The purpose of this application is to mass encrypt multiple PDF files at once without having to manually enter a password for each PDF or upload files one by one.
+    </font>
+  </p>
 </div>
 
 <br>
@@ -75,7 +79,7 @@ Follow these steps to run the python application directly from the source code:
     python app.py
     ```
 
-## 📄 MIT License
+## ⚖️ MIT License
 
 Distributed under the MIT License. 
 
